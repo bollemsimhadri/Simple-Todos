@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: nowrap;
+}
+.para {
+  font-family: Roboto;
+  color: #000000;
+  font-size: 18px;
+  margin: 10px;
+}
+.btn {
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: Roboto;
+  outline: none;
+  border: 2px #ff0b37 solid;
+  color: #ff0b37;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 16px;
+}

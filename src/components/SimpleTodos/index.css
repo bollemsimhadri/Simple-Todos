@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+  background-size: cover;
+  padding: 40px;
+  overflow: auto;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin: 50px;
+  border-radius: 10px;
+  overflow-y: auto;
+  height: 50vh;
+  width: 50vw;
+}
+.heading {
+  font-family: Roboto;
+  color: #ff8542;
+  font-weight: 400;
+}
+.todo-list {
+  padding: 2px;
+}
